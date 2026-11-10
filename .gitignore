@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+.env.local
+.env.*.local
+infra/node_modules
+infra/cdk.out
+infra/*.js
+infra/*.d.ts
+!infra/jest.config.js
+.DS_Store

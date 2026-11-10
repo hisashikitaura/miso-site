@@ -1,0 +1,32 @@
+:root {
+  --ink: #0e0d0b;
+  --ink-2: #1a1815;
+  --ink-3: #2a2722;
+  --kinari: #f3ede1;
+  --kinari-2: #e8dfcd;
+  --kinari-3: #d6cab2;
+  --miso: #8a5a2b;
+  --miso-dark: #5c3a1c;
+  --shu: #b5332b;
+  --muted: #8d8579;
+  --serif: "Shippori Mincho", "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  --serif-body: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  --latin: "Cormorant Garamond", "Times New Roman", serif;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--ink);
+  color: var(--kinari);
+  font-family: var(--serif-body);
+  font-weight: 400;
+  line-height: 1.9;
+  letter-spacing: 0.04em;
+  -webkit-font-smoothing: antialiased;
+}
+img { max-width: 100%; display: block; }
+button { font: inherit; color: inherit; }
+.muted { color: var(--muted); }
+.center { text-align: center; }
+.small { font-size: 0.8rem; }
